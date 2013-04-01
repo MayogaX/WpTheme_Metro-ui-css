@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-	<div id="page-index" class="span8">
+	<div id="page-index" class="span10">
 		
 
 		<?php if ( have_posts() ) : ?>
