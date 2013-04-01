@@ -12,8 +12,8 @@ get_header(); ?>
 
 			<article id="post-0" class="post error404 not-found">
 				<header class="entry-header">
-					<h1 class="entry-title">
-          <?php _e( 'Oops! That page can&rsquo;t be found.', '_MetroUiCss' ); ?></h1>
+					<h2 class="entry-title">
+          <?php _e( 'Oops! That page can&rsquo;t be found.', '_MetroUiCss' ); ?></h2>
 				</header><!-- .entry-header -->
 
 				<div class="entry-content">
@@ -26,7 +26,7 @@ get_header(); ?>
 
 					<?php if ( _MetroUiCss_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
 					<div class="widget widget_categories">
-						<h2 class="widgettitle">
+						<h3 class="widgettitle">
             <?php _e( 'Most Used Categories', '_MetroUiCss' ); ?></h2>
 						<ul>
 							<?php wp_list_categories( array( 'orderby' => 'count', 'order' => 'DESC', 'show_count' => 1, 'title_li' => '', 'number' => 10 ) ); ?>
