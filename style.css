@@ -10,13 +10,6 @@ License URI: license.txt
 Tags: Metro
 */
 
-
-
-/*
- * Metro UI CSS v 0.1.6
- * Copyright 2012 Sergey Pimenov
- * Licensed under the MIT Lilcense
- */
 /*! normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
 /* =============================================================================
    HTML5 display definitions
@@ -6373,4 +6366,71 @@ pre code {
 .slider:active .complete,
 .slider:active + .marker:active .complete {
   background-color: #25bbc4;
+}
+
+/* Media */
+@media (min-width: 768px) and (max-width: 979px) {
+    .metrouicss .page {
+        width: 724px;
+    }
+    .metrouicss .hero-unit > img {
+        zoom: .6;
+    }
+    .metrouicss .browsers-icons img {
+        zoom: .8;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .metrouicss .page {
+        width: 100%;
+    }
+
+    .metrouicss .hero-unit > img {
+        zoom: .6;
+    }
+
+    .metrouicss .modern-ui-logo {
+        width: 24px;
+        height: 24px;
+    }
+    .metrouicss .github-info {
+        margin-top: 5px;
+    }
+
+    .metrouicss a, .metrouicss .link {
+        font-size: 9pt;
+    }
+
+    .metrouicss h3 {
+        line-height: 11px;
+    }
+
+    .metrouicss .no-mobile {
+        display: none;
+    }
+
+    .metrouicss #carousel1 {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .metrouicss .hero-unit img {
+        display: none;
+    }
+
+    .metrouicss #jetbrains {
+        display: none;
+    }
+    .metrouicss #brand-name {
+        display: none;
+    }
+}
+
+.metrouicss .page {
+    width: 940px ;
+    margin: auto;
+    background-color: #fff;
 }
