@@ -8,7 +8,7 @@
  */
 ?>
 
-<article id="post-0" class="post no-results not-found">
+<article id="post-0" class="post no-results not-found span8">
 	<header class="entry-header">
 		<h2 class="entry-title"><?php _e( 'Nothing Found', '_MetroUiCss' ); ?></h2>
 	</header><!-- .entry-header -->
