@@ -4064,7 +4064,7 @@ ol
     {
         height: 48px;
         width: 48px;
-        left: 36px;
+        /*left: 36px;*/
         top: 40px;
     }
 
@@ -8879,4 +8879,14 @@ pre
     width: 980px;
     margin: auto;
     background-color: #fff;
+}
+
+.arrowLk
+{
+    position:fixed !important;
+}
+
+.page-header h1, h2
+{
+    margin-left:65px;
 }

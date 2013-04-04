@@ -22,10 +22,11 @@
 <body class="metrouicss">
 <div id="page" class="page">
 	<?php do_action( 'before' ); ?>
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="page-header" role="banner">
 		<hgroup>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="back-button big page-back arrowLk"></a>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><h1 class="site-title"><?php bloginfo( 'name' ); ?></h1></a>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+            <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>                
 		</hgroup>
 
 		<nav id="site-navigation" class="nav-bar" role="navigation">
