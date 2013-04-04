@@ -8898,3 +8898,13 @@ pre
 {
     color:#fff;
 }
+
+hgroup a h1
+{
+    display:inline;
+}
+
+.btFeed
+{
+    margin-left: 30px;
+}
