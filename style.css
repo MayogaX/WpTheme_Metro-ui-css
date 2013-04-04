@@ -8886,6 +8886,12 @@ pre
     border-top: 5px solid #2d89ef;
 }
 
+article
+{
+     border-top: 5px solid #2d89ef;
+     margin-bottom:30px;
+}
+
 #colophon
 {
     padding:10px;
