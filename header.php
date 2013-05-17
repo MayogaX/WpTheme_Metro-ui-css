@@ -30,7 +30,7 @@
 
 		<nav id="site-navigation" class="nav-bar" role="navigation">
           <div class="nav-bar-inner">
-			    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			    <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'menu', 'container' => false ) ); ?>
            </div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
