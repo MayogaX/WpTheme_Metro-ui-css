@@ -125,6 +125,7 @@ h1
 {
     font-size: 2em;
     margin: 0.67em 0;
+    color: #a51d29 !important;
 }
 
 h2
@@ -8888,25 +8889,25 @@ pre
 
 article
 {
-     margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 #colophon
 {
-    padding:10px;
-    background-color : #a51d29;
-    width:100%;
+    padding: 10px;
+    background-color: #a51d29;
+    width: 100%;
     color: #fff;
 }
 
-#colophon a
-{
-    color:#fff;
-}
+    #colophon a
+    {
+        color: #fff;
+    }
 
 hgroup a h1
 {
-    display:inline;
+    display: inline;
 }
 
 .btFeed
@@ -8916,5 +8917,6 @@ hgroup a h1
 
 .entry-header
 {
-    border-left: solid, 5px, #a51d29;
+    border-left: solid 5px #a51d29;
+    margin-bottom:10px;
 }

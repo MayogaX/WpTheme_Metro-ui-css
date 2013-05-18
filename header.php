@@ -12,6 +12,8 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/prettyCode.css">
+<script src="<?php echo get_template_directory_uri(); ?>/js/pretty.js" type="text/javascript"></script>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
@@ -19,7 +21,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body class="metrouicss">
+<body class="metrouicss" onload="prettyPrint()">
 <div id="page" class="page">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="page-header" role="banner">
